@@ -19,7 +19,7 @@ if (!fontsLoaded) return null;
             />
             </View>
         <View style={styles.contenedorletras}>
-            <Text style={{ fontFamily: 'Ubuntu', fontSize: 21 }}> Sales & Markething</Text>
+            <Text style={{ fontFamily: 'Ubuntu', fontSize: 19 }}> Sales & Markething</Text>
             <Text style={{fontFamily: 'Oswald', fontSize: 15,color:'rgb(113, 107, 107)' }}>Paypal</Text>
         </View>
         <View style={styles.figurita}>
@@ -76,10 +76,9 @@ const styles = StyleSheet.create({
       },
       contenedorletras:{
         alignSelf:'center',
-        width:'65%',
+        width:'75%',
         height:53,
         marginLeft:6,
-        backgroundColor:'white',
         flexDirection:'column',
       },
       figurita:{

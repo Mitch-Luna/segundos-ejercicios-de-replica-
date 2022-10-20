@@ -32,12 +32,12 @@ if (!fontsLoaded) return null;
 const styles = StyleSheet.create({
     contenedorBotones:{
         alignItems:'center',
-        marginHorizontal:23,
         flexDirection:'row',
         width:'100%',
         height:56,
       },
       botonuno:{
+        marginHorizontal:12,
         backgroundColor:' rgb(26, 163, 255)',
         width:58,
         height:34,
